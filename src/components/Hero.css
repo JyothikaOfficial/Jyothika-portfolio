@@ -1,0 +1,45 @@
+.text-gradient {
+  background: linear-gradient(90deg, #a855f7, #3b82f6, #facc15);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientMove 5s infinite linear;
+  background-size: 200% 200%;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.shadow-pulse {
+  box-shadow: 0 0 20px rgba(168, 85, 247, 0.5);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 20px rgba(168, 85, 247, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(168, 85, 247, 0.8);
+  }
+}
+
+.blinking-cursor {
+  display: inline-block;
+  width: 2px;
+  background-color: #a855f7;
+  animation: blink 1s step-start infinite;
+  margin-left: 2px;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
