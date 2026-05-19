@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 
 const certs = [
@@ -22,12 +21,15 @@ const containerVariants = {
   },
 };
 
-const itemVariants = {
+const itemVariants: any = {
   hidden: { opacity: 0, x: -20 },
   show: {
     opacity: 1,
     x: 0,
-    transition: { type: "spring", stiffness: 100 },
+    transition: {
+      type: "spring",
+      stiffness: 100,
+    },
   },
 };
 
