@@ -18,7 +18,7 @@ const projects: Project[] = [
     title: "Gaming Landing Page",
     description:
       "Immersive landing page crafted for gamers to explore, connect, and dive into epic tournaments.",
-    img: "/FUTURE_FS_01/assets/gaming.jpg",
+    img: "/assets/gaming.jpg",
     github: "https://github.com/JyothikaOfficial/Shadow_Morpher",
     category: "Full Stack",
     languages: ["HTML", "CSS", "JavaScript", "GSAP"],
@@ -28,7 +28,7 @@ const projects: Project[] = [
   {
     title: "E-Commerce Store",
     description: "Responsive online shop with full cart functionality.",
-    img: "/FUTURE_FS_01/assets/ecommerce.jpg",
+    img: "/assets/ecommerce.jpg",
     github: "https://github.com/JyothikaOfficial/custom_craft",
     category: "Full Stack",
     languages: ["HTML", "CSS", "PHP", "MySQL"],
@@ -39,7 +39,7 @@ const projects: Project[] = [
     title: "Conversion of Sign Language using Text & Speech",
     description:
       "Smart assistive app bridging sign language with real-time text and voice conversion.",
-    img: "/FUTURE_FS_01/assets/sign%20language.jpg",
+    img: "/assets/sign%20language.jpg",
     github:
       "https://github.com/JyothikaOfficial/Conversion-of-sign-language-to-text-and-speech-using-deep-learning",
     category: "ML",
@@ -51,7 +51,7 @@ const projects: Project[] = [
     title: "Rebrand E-Commerce Store",
     description:
       "Brand Spark – Nike: Modernized UI & UX for a rebranded Nike store.",
-    img: "/FUTURE_FS_01/assets/brand-spark.jpg",
+    img: "/assets/brand-spark.jpg",
     github: "https://github.com/JyothikaOfficial/FUTURE_FS_03.git",
     category: "Full Stack",
     languages: ["HTML", "CSS", "JavaScript", "React"],
@@ -62,7 +62,7 @@ const projects: Project[] = [
     title: "Portfolio Website",
     description:
       "Personal portfolio showcasing projects, skills, and experience with smooth transitions and animations.",
-    img: "/FUTURE_FS_01/assets/portfolio.jpg",
+    img: "/assets/portfolio.jpg",
     github: "https://github.com/JyothikaOfficial/FUTURE_FS_01.git",
     category: "Full Stack",
     languages: ["React", "Tailwind CSS", "Framer Motion"],
@@ -73,7 +73,7 @@ const projects: Project[] = [
     title: "Shob Hub E-Commerce Project",
     description:
       "End-to-end e-commerce platform delivering a seamless shopping experience.",
-    img: "/FUTURE_FS_01/assets/shop-hub.jpg",
+    img: "/assets/shop-hub.jpg",
     github: "https://github.com/JyothikaOfficial/FUTURE_FS_02.git",
     category: "Full Stack",
     languages: ["HTML", "CSS", "PHP", "MySQL", "JavaScript"],
@@ -84,7 +84,7 @@ const projects: Project[] = [
     title: "Sales Data Analysis",
     description:
       "Data Analytics project using Excel & Power BI dashboards for actionable business insights.",
-    img: "/FUTURE_FS_01/assets/data-analytics.jpg",
+    img: "/assets/data-analytics.jpg",
     github: "https://github.com/JyothikaOfficial/FUTURE_FS_02.git",
     category: "Data Analyst",
     languages: ["Excel", "Power BI", "Python"],
@@ -113,7 +113,7 @@ export default function Projects() {
           playsInline
           className="w-full h-full object-cover scale-100"
         >
-          <source src="/FUTURE_FS_01/assets/projects-bg.mp4" type="video/mp4" />
+          <source src="/assets/projects-bg.mp4" type="video/mp4" />
         </video>
       </div>
 

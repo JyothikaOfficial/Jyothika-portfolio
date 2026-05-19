@@ -36,7 +36,7 @@ export default function Contact() {
       {/* Background Video */}
       <video
         className="absolute inset-0 w-full h-full object-cover"
-        src="/FUTURE_FS_01/assets/contact-bg.mp4"
+        src="/assets/contact-bg.mp4"
         autoPlay
         loop
         muted
@@ -50,7 +50,7 @@ export default function Contact() {
         {/* Profile Image */}
         <div className="flex justify-center mb-4">
           <img
-            src="/FUTURE_FS_01/assets/profile.jpg"
+            src="/assets/profile.jpg"
             alt="Jyothika Thiyagarajan"
             className="w-20 h-20 md:w-24 md:h-24 rounded-full border-2 border-pink-500 shadow-[0_0_20px_rgba(255,0,255,0.3)] object-cover"
           />

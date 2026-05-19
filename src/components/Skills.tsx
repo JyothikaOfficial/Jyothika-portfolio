@@ -4,57 +4,57 @@ export default function Skills() {
   const skills = [
     {
       name: "HTML5",
-      img: "/FUTURE_FS_01/assets/html-bg.jpg",
+      img: "/assets/html-bg.jpg",
       desc: "Structure web pages with semantic tags and clean markup.",
     },
     {
       name: "CSS3",
-      img: "/FUTURE_FS_01/assets/css-bg.jpg",
+      img: "/assets/css-bg.jpg",
       desc: "Style and animate websites with responsive layouts.",
     },
     {
       name: "JavaScript",
-      img: "/FUTURE_FS_01/assets/javascript.jpg",
+      img: "/assets/javascript.jpg",
       desc: "Make websites interactive with dynamic functionality.",
     },
     {
       name: "React",
-      img: "/FUTURE_FS_01/assets/react-bg.jpg",
+      img: "/assets/react-bg.jpg",
       desc: "Build modern component-based UI for web apps.",
     },
     {
       name: "Node.js",
-      img: "/FUTURE_FS_01/assets/node-bg.jpg",
+      img: "/assets/node-bg.jpg",
       desc: "Server-side logic and API development.",
     },
     {
       name: "Python",
-      img: "/FUTURE_FS_01/assets/python-bg.jpg",
+      img: "/assets/python-bg.jpg",
       desc: "Data analysis, scripting, and backend programming.",
     },
     {
       name: "Database / SQL",
-      img: "/FUTURE_FS_01/assets/db-bg.jpg",
+      img: "/assets/db-bg.jpg",
       desc: "Design and query databases for data storage.",
     },
     {
       name: "Excel",
-      img: "/FUTURE_FS_01/assets/excel.jpg",
+      img: "/assets/excel.jpg",
       desc: "Analyze and visualize data with Excel.",
     },
     {
       name: "Word",
-      img: "/FUTURE_FS_01/assets/word.jpg",
+      img: "/assets/word.jpg",
       desc: "Create professional documents with MS Word.",
     },
     {
       name: "Tableau",
-      img: "/FUTURE_FS_01/assets/tableau.jpg",
+      img: "/assets/tableau.jpg",
       desc: "Build interactive dashboards for data visualization.",
     },
     {
       name: "Power BI",
-      img: "/FUTURE_FS_01/assets/powerbi.jpg",
+      img: "/assets/powerbi.jpg",
       desc: "Develop business intelligence reports and dashboards.",
     },
   ];
@@ -67,7 +67,7 @@ export default function Skills() {
       {/* Background Video */}
       <video
         className="absolute inset-0 w-full h-full object-cover"
-        src="/FUTURE_FS_01/assets/skills-bg.mp4"
+        src="/assets/skills-bg.mp4"
         autoPlay
         loop
         muted

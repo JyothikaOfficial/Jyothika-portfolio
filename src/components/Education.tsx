@@ -168,7 +168,7 @@ export default function Education() {
         playsInline
         className="absolute inset-0 w-full h-full object-cover z-0"
       >
-        <source src="/FUTURE_FS_01/assets/education-bg.mp4" type="video/mp4" />
+        <source src="/assets/education-bg.mp4" type="video/mp4" />
       </video>
       <div className="absolute inset-0 bg-black/45 z-0"></div>
 
@@ -270,11 +270,7 @@ export default function Education() {
             >
               {/* Background Image */}
               <img
-                src={
-                  activeEdu === 0
-                    ? "/FUTURE_FS_01/assets/pg.jpg"
-                    : "/FUTURE_FS_01/assets/ug.jpg"
-                }
+                src={activeEdu === 0 ? "/assets/pg.jpg" : "/assets/ug.jpg"}
                 alt="Education Background"
                 className="absolute inset-0 w-full h-full object-cover z-0"
               />
@@ -333,7 +329,7 @@ export default function Education() {
             >
               {/* Background Image */}
               <img
-                src="/FUTURE_FS_01/assets/certifications.jpg"
+                src="/assets/certifications.jpg"
                 alt="Certifications Background"
                 className="absolute inset-0 w-full h-full object-cover z-0"
               />

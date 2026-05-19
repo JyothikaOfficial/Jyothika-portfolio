@@ -14,7 +14,7 @@ const internships = [
       "Responsive pages & APIs",
       "Team collaboration with Git",
     ],
-    image: "/FUTURE_FS_01/assets/fullstack-bg.jpg",
+    image: "/assets/fullstack-bg.jpg",
   },
   {
     company: "Sri Motors (Yamaha Authorized Dealer)",
@@ -27,7 +27,7 @@ const internships = [
       "Inventory management",
       "Communication improvement",
     ],
-    image: "/FUTURE_FS_01/assets/customer-bg.jpg",
+    image: "/assets/customer-bg.jpg",
   },
   {
     company: "Future Interns",
@@ -40,7 +40,7 @@ const internships = [
       "API integration & DB connectivity",
       "Agile team code reviews",
     ],
-    image: "/FUTURE_FS_01/assets/future-interns-bg.jpg",
+    image: "/assets/future-interns-bg.jpg",
   },
 ];
 
@@ -82,10 +82,7 @@ export default function Internship() {
           playsInline
           className="w-full h-full object-cover"
         >
-          <source
-            src="/FUTURE_FS_01/assets/internship-bg-video.mp4"
-            type="video/mp4"
-          />
+          <source src="/assets/internship-bg-video.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-black/50"></div>
       </div>

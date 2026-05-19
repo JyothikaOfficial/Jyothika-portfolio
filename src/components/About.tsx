@@ -24,7 +24,7 @@ export default function About() {
         muted
         className="absolute inset-0 w-full h-full object-cover z-0 brightness-90"
       >
-        <source src="/FUTURE_FS_01/assets/about-bg.mp4" type="video/mp4" />
+        <source src="/assets/about-bg.mp4" type="video/mp4" />
       </video>
 
       {/* Overlay */}
@@ -44,7 +44,7 @@ export default function About() {
           transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
         >
           <img
-            src="/FUTURE_FS_01/assets/about-me.jpg"
+            src="/assets/about-me.jpg"
             alt="Jyothika"
             className="w-56 h-56 md:w-64 md:h-64 rounded-full border-4 border-purple-500 object-cover shadow-lg brightness-125"
           />

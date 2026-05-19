@@ -26,7 +26,7 @@ export default function Hero() {
       setText((prev) =>
         forward
           ? full.slice(0, prev.length + 1)
-          : full.slice(0, prev.length - 1)
+          : full.slice(0, prev.length - 1),
       );
 
       if (forward && text === full) setForward(false);
@@ -62,7 +62,7 @@ export default function Hero() {
       {/* Background image zoom */}
       <motion.div
         className="absolute inset-0 bg-center bg-cover"
-        style={{ backgroundImage: "url('/FUTURE_FS_01/assets/hero-bg.jpg')" }}
+        style={{ backgroundImage: "url('/assets/hero-bg.jpg')" }}
         initial={{ scale: 1 }}
         animate={{ scale: [1, 1.2, 1] }}
         transition={{
@@ -82,7 +82,7 @@ export default function Hero() {
       >
         {/* Hero photo with zoom + float + hover tilt */}
         <motion.img
-          src="/FUTURE_FS_01/assets/about-me.jpg"
+          src="/assets/about-me.jpg"
           alt="Jyothika"
           className="w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-purple-500 object-cover shadow-lg mb-4 shadow-pulse"
           initial={{ scale: 1, y: 0, rotate: 0 }}
@@ -145,7 +145,7 @@ export default function Hero() {
           </motion.a>
 
           <motion.a
-            href="/FUTURE_FS_01/assets/resume.pdf"
+            href="/assets/resume.pdf"
             download
             className="flex-1 md:flex-none px-5 py-2 bg-gradient-to-r from-green-600 via-blue-500 to-purple-600 rounded-lg text-center"
             whileHover={{ scale: 1.1, boxShadow: "0 0 20px #10b981" }}
