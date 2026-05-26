@@ -8,12 +8,57 @@ interface Project {
   description: string;
   img: string;
   github?: string;
-  category: "Full Stack" | "Data Analyst" | "ML";
+  category: "Data Analyst" | "Full Stack" | "ML";
   languages: string[];
   details: string;
 }
 
 const projects: Project[] = [
+  {
+    title: "Credit Card Financial Dashboard",
+    description:
+      "Interactive Power BI dashboard analyzing customer spending behavior and transaction trends.",
+    img: "/assets/credit-card-dashboard.jpg",
+    github:
+      "https://github.com/JyothikaOfficial/Credit-Card-Financial-Transaction-dashboard",
+    category: "Data Analyst",
+    languages: ["Power BI", "Excel", "Data Visualization"],
+    details:
+      "Developed an interactive dashboard to analyze credit card transactions and customer spending behavior. Visualized $73M+ transaction revenue using KPI cards, donut charts, line charts, and geospatial maps. Implemented dynamic filters for gender, city, category, and profession-based analysis while identifying fraud-related trends and improving business decision-making through modern data storytelling techniques.",
+  },
+  {
+    title: "Hospital Management System Analysis Dashboard",
+    description:
+      "KPI-driven hospital analytics dashboard with appointment, finance, and performance insights.",
+    img: "/assets/hospital-dashboard.jpg",
+    github: "https://github.com/JyothikaOfficial/",
+    category: "Data Analyst",
+    languages: ["SQL", "Power BI", "DAX"],
+    details:
+      "Built an interactive hospital analytics dashboard with doctor, department, and appointment-based filtering. Analyzed cancellation rates, patient demographics, doctor performance, and payment behavior using DAX metrics. Improved decision-making efficiency by 45% through actionable insights on staffing, patient care trends, and resource optimization strategies.",
+  },
+  {
+    title: "Call Center Trend Analysis",
+    description:
+      "Excel-based call center analytics project focused on staffing optimization and SLA improvement.",
+    img: "/assets/call-center-analysis.jpg",
+    github: "https://github.com/JyothikaOfficial/",
+    category: "Data Analyst",
+    languages: ["Excel", "Data Visualization", "Analytics"],
+    details:
+      "Analyzed 117K+ call records to identify peak demand patterns, staffing gaps, and customer behavior trends. Cleaned 47K+ abnormal and NULL values using Excel techniques, pivot tables, and advanced formulas. Developed executive-level visualizations that supported manpower reallocation, reduced call abandonment rates, and improved customer satisfaction through data-driven workforce planning.",
+  },
+  {
+    title: "Sales Data Analysis",
+    description:
+      "Data Analytics project using Excel & Power BI dashboards for actionable business insights.",
+    img: "/assets/data-analytics.jpg",
+    github: "https://github.com/JyothikaOfficial/FUTURE_FS_02.git",
+    category: "Data Analyst",
+    languages: ["Excel", "Power BI", "Python"],
+    details:
+      "Analyzed sales data and created interactive dashboards using Power BI and Excel for reporting key business insights.",
+  },
   {
     title: "Gaming Landing Page",
     description:
@@ -80,22 +125,11 @@ const projects: Project[] = [
     details:
       "Complete online shopping platform with product management, cart functionality, and payment integration.",
   },
-  {
-    title: "Sales Data Analysis",
-    description:
-      "Data Analytics project using Excel & Power BI dashboards for actionable business insights.",
-    img: "/assets/data-analytics.jpg",
-    github: "https://github.com/JyothikaOfficial/FUTURE_FS_02.git",
-    category: "Data Analyst",
-    languages: ["Excel", "Power BI", "Python"],
-    details:
-      "Analyzed sales data and created interactive dashboards using Power BI and Excel for reporting key business insights.",
-  },
 ];
 
 export default function Projects() {
   const [filter, setFilter] = useState<
-    "All" | "Full Stack" | "Data Analyst" | "ML"
+    "All" | "Data Analyst" | "Full Stack" | "ML"
   >("All");
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 

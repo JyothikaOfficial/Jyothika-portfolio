@@ -43,6 +43,19 @@ const education: Edu[] = [
 
 const certifications: Cert[] = [
   {
+    title: "International Conference Presentation - ICCET 2026",
+    pct: 95,
+    description:
+      "Presented a research paper on Deep Learning-based Sign Language Interpretation at ICCET 2026, Chennai.",
+    advantages: [
+      "Research & presentation experience",
+      "Exposure to AI and Deep Learning concepts",
+    ],
+    disadvantages: [
+      "Academic research project, limited industry implementation",
+    ],
+  },
+  {
     title: "Python for Data Science - UDEMY",
     pct: 95,
     description: "Python basics, syntax, data structures, and OOP concepts.",
@@ -57,11 +70,26 @@ const certifications: Cert[] = [
     ],
   },
   {
-    title: "Introduction to Cybersecurity - CISCO",
-    pct: 80,
-    description: "Basics of cybersecurity, threats, and mitigation techniques.",
-    advantages: ["Understanding security fundamentals", "Career-ready skills"],
-    disadvantages: ["Needs constant updating due to new threats"],
+    title: "Deloitte Australia - Data Analytics Job Simulation",
+    pct: 90,
+    description:
+      "Completed a virtual job simulation focused on real-world data analytics and business problem-solving.",
+    advantages: [
+      "Hands-on data analytics experience",
+      "Business insight & dashboard creation",
+    ],
+    disadvantages: ["Virtual simulation, not real-time client exposure"],
+  },
+  {
+    title: "PHP for Beginners - Complete PHP MySQL PDO Course",
+    pct: 85,
+    description:
+      "Completed a beginner-friendly course covering PHP, MySQL, and PDO for dynamic web application development.",
+    advantages: [
+      "Strong PHP & MySQL fundamentals",
+      "Hands-on database connectivity using PDO",
+    ],
+    disadvantages: ["Focused on beginner to intermediate concepts"],
   },
   {
     title: "AWS Cloud Practitioner - NASSCOM & AWS",
@@ -86,16 +114,6 @@ const certifications: Cert[] = [
     description: "Basic AI concepts, ML workflow, and Python usage.",
     advantages: ["Foundation for AI projects", "Good for resume"],
     disadvantages: ["Limited depth, mostly introductory"],
-  },
-  {
-    title: "Data Analytics Job Simulation - DELOITTE",
-    pct: 88,
-    description: "End-to-end analytics simulation using real datasets.",
-    advantages: [
-      "Practical data analysis experience",
-      "Industry-oriented skills",
-    ],
-    disadvantages: ["Simulation only, not full real-world experience"],
   },
   {
     title: "Aptitude Internship Certificate - ICAT",

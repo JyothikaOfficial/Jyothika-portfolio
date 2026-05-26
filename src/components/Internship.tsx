@@ -4,6 +4,19 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const internships = [
   {
+    company: "Future Interns",
+    role: "Data Analyst Intern",
+    duration: "May 2025 – June 2025",
+    description:
+      "Worked on real-world data analysis projects using Power BI, Excel, SQL, and Python to generate actionable business insights and interactive dashboards.",
+    points: [
+      "Built interactive Power BI dashboards",
+      "Performed data cleaning & visualization",
+      "Analyzed business trends using SQL & Excel",
+    ],
+    image: "/assets/future-interns-bg.jpg",
+  },
+  {
     company: "Skifter Technologies",
     role: "Full Stack Developer Intern",
     duration: "June 2025 – Sep 2025",
@@ -15,32 +28,6 @@ const internships = [
       "Team collaboration with Git",
     ],
     image: "/assets/fullstack-bg.jpg",
-  },
-  {
-    company: "Sri Motors (Yamaha Authorized Dealer)",
-    role: "Customer Engagement Intern",
-    duration: "Jan 2024 – Feb 2024",
-    description:
-      "Handled customer interactions, assisted inventory management, and documentation. Developed communication & problem-solving skills.",
-    points: [
-      "Customer engagement & support",
-      "Inventory management",
-      "Communication improvement",
-    ],
-    image: "/assets/customer-bg.jpg",
-  },
-  {
-    company: "Future Interns",
-    role: "Full Stack Development Intern",
-    duration: "Oct 2025 – Nov 2025",
-    description:
-      "Developed dynamic web apps using React & Node.js. Integrated APIs, worked with DBs, and performed code reviews.",
-    points: [
-      "React & Node.js projects",
-      "API integration & DB connectivity",
-      "Agile team code reviews",
-    ],
-    image: "/assets/future-interns-bg.jpg",
   },
 ];
 

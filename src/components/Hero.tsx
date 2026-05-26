@@ -5,11 +5,10 @@ import Particles from "react-tsparticles";
 import "./Hero.css"; // gradient, pulse, blinking cursor styles
 
 const phrases = [
-  "a Full-Stack Developer & Data Analyst",
-  "building interactive web applications",
+  "a Data Analyst",
   "analyzing data for better decisions",
   "turning data into insights",
-  "transforming ideas into code",
+  "transforming ideas into business insights",
 ];
 
 export default function Hero() {
@@ -113,10 +112,9 @@ export default function Hero() {
           animate={{ opacity: 1 }}
           transition={{ delay: 1.2 }}
         >
-          Passionate about crafting full-stack web solutions and uncovering
-          insights through data analytics. Skilled in React, Tailwind, Python,
-          and modern data visualization tools to build impactful digital
-          experiences.
+          Aspiring Data Analyst skilled in Python, SQL, Power Bi, and data
+          Visualization. This Portfolio showcases my analytics projects,
+          technical skills, certification, and problem-solving abilities.
         </motion.p>
 
         {/* Buttons */}

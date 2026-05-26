@@ -3,29 +3,9 @@ import { motion } from "framer-motion";
 export default function Skills() {
   const skills = [
     {
-      name: "HTML5",
-      img: "/assets/html-bg.jpg",
-      desc: "Structure web pages with semantic tags and clean markup.",
-    },
-    {
-      name: "CSS3",
-      img: "/assets/css-bg.jpg",
-      desc: "Style and animate websites with responsive layouts.",
-    },
-    {
-      name: "JavaScript",
-      img: "/assets/javascript.jpg",
-      desc: "Make websites interactive with dynamic functionality.",
-    },
-    {
-      name: "React",
-      img: "/assets/react-bg.jpg",
-      desc: "Build modern component-based UI for web apps.",
-    },
-    {
-      name: "Node.js",
-      img: "/assets/node-bg.jpg",
-      desc: "Server-side logic and API development.",
+      name: "Power BI",
+      img: "/assets/powerbi.jpg",
+      desc: "Develop business intelligence reports and dashboards.",
     },
     {
       name: "Python",
@@ -38,24 +18,29 @@ export default function Skills() {
       desc: "Design and query databases for data storage.",
     },
     {
-      name: "Excel",
-      img: "/assets/excel.jpg",
-      desc: "Analyze and visualize data with Excel.",
-    },
-    {
-      name: "Word",
-      img: "/assets/word.jpg",
-      desc: "Create professional documents with MS Word.",
-    },
-    {
       name: "Tableau",
       img: "/assets/tableau.jpg",
       desc: "Build interactive dashboards for data visualization.",
     },
     {
-      name: "Power BI",
-      img: "/assets/powerbi.jpg",
-      desc: "Develop business intelligence reports and dashboards.",
+      name: "Excel",
+      img: "/assets/excel.jpg",
+      desc: "Analyze and visualize data with Excel.",
+    },
+    {
+      name: "HTML5",
+      img: "/assets/html-bg.jpg",
+      desc: "Structure web pages with semantic tags and clean markup.",
+    },
+    {
+      name: "CSS3",
+      img: "/assets/css-bg.jpg",
+      desc: "Style and animate websites with responsive layouts.",
+    },
+    {
+      name: "Word",
+      img: "/assets/word.jpg",
+      desc: "Create professional documents with MS Word.",
     },
   ];
 

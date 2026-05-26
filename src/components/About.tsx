@@ -2,13 +2,21 @@
 import { motion } from "framer-motion";
 
 const aboutParagraphs = [
-  `Hi! I’m <span class="text-purple-400 font-semibold">Jyothika</span>, a passionate <span class="text-green-400 font-semibold">Full-Stack Developer</span> and <span class="text-yellow-400 font-semibold">Data Analyst</span>. I love creating elegant solutions that combine <span class="text-cyan-400 font-semibold">technology</span> and <span class="text-pink-400 font-semibold">creativity</span>.`,
+  `<p class="text-justify">
+  Hi! I’m <span class="text-purple-400 font-semibold">Jyothika</span>, a passionate <span class="text-yellow-400 font-semibold">Data Analyst</span> who enjoys transforming raw data into meaningful insights and business solutions. I love working with <span class="text-cyan-400 font-semibold">data</span>, discovering patterns, and helping organizations make smarter decisions through analytics.
+  </p>`,
 
-  `With experience in <span class="text-purple-400 font-semibold">React, Tailwind CSS, Python, SQL, Power BI</span>, I enjoy transforming complex problems into user-friendly applications and insightful data visualizations.`,
+  `<p class="text-justify">
+  With experience in <span class="text-purple-400 font-semibold">Python, SQL, Power BI, Excel, and Data Visualization</span>, I specialize in analyzing datasets, building interactive dashboards, and presenting insights in a clear and impactful way.
+  </p>`,
 
-  `I thrive in <span class="text-green-400 font-semibold">collaborative environments</span> and constantly challenge myself to explore <span class="text-yellow-400 font-semibold">emerging technologies</span>, aiming to deliver solutions that are both <span class="text-pink-400 font-semibold">efficient</span> and <span class="text-cyan-400 font-semibold">aesthetically pleasing</span>.`,
+  `<p class="text-justify">
+  I enjoy solving real-world problems using <span class="text-green-400 font-semibold">data-driven approaches</span> and continuously learning <span class="text-yellow-400 font-semibold">emerging analytical tools and technologies</span>. My goal is to create solutions that are both <span class="text-pink-400 font-semibold">efficient</span> and valuable for businesses and users.
+  </p>`,
 
-  `Beyond coding, I’m passionate about <span class="text-purple-400 font-semibold">UI/UX design</span>, analyzing data trends, and building tools that make life easier for users. Each project is a new opportunity to learn, grow, and create impact.`,
+  `<p class="text-justify">
+  Beyond analytics, I’m passionate about <span class="text-purple-400 font-semibold">business intelligence</span>, identifying trends, and building reports that support strategic decision-making. Every project is an opportunity for me to learn, grow, and make a positive impact through data.
+  </p>`,
 ];
 
 export default function About() {
