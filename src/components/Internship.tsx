@@ -19,7 +19,7 @@ const internships = [
   {
     company: "Skifter Technologies",
     role: "Full Stack Developer Intern",
-    duration: "Nov 2025 – January 2025",
+    duration: "Nov 2025 – January 2026",
     description:
       "Built responsive web apps with React & Tailwind. Implemented REST APIs using Node.js & Express. Collaborated in agile teams using GitHub.",
     points: [
