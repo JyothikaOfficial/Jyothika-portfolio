@@ -6,7 +6,7 @@ const internships = [
   {
     company: "Future Interns",
     role: "Data Analyst Intern",
-    duration: "May 2025 – June 2025",
+    duration: "May 2026 – June 2026",
     description:
       "Worked on real-world data analysis projects using Power BI, Excel, SQL, and Python to generate actionable business insights and interactive dashboards.",
     points: [
@@ -19,7 +19,7 @@ const internships = [
   {
     company: "Skifter Technologies",
     role: "Full Stack Developer Intern",
-    duration: "June 2025 – Sep 2025",
+    duration: "Nov 2025 – January 2025",
     description:
       "Built responsive web apps with React & Tailwind. Implemented REST APIs using Node.js & Express. Collaborated in agile teams using GitHub.",
     points: [
